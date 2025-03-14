@@ -77,10 +77,6 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Consultar.io',
-        logo: {
-          alt: 'Consultar.io Logo',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             type: 'docSidebar',
