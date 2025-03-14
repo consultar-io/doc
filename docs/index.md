@@ -12,7 +12,13 @@ sobre estabelecimentos, pessoas, profissionais e endereços.
 
 ## Autenticação
 
-Consulte a documentação de [Autenticação](./autenticacao.md) para mais informações.
+Consulte a documentação de [Autenticação](./autenticacao.md) para mais informações sobre
+o processo de autenticação.
+
+## Ambientes
+
+Consulte a documentação de [Ambientes](./ambientes.md) para mais informações sobre
+os ambientes disponíveis.
 
 ## Endpoints
 
