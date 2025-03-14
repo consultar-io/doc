@@ -2,6 +2,6 @@ site_name: Documentação Consultar.io
 site_url: https://consultar.dev
 theme:
   name: material
-  language: pt-br
+  language: pt
   palette:
     scheme: slate
