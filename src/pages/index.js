@@ -32,7 +32,6 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Documentação ${siteConfig.title}`}
       description={`Documentação da API do ${siteConfig.title} para Desenvolvedores`}>
       <HomepageHeader />
       <main>

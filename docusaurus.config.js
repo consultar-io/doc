@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Consultar.io',
-  tagline: 'Consulta de CNPJ, CNAE, QSA, IE, CRM, CRO e muito mais',
+  title: 'Consultar.io API',
+  tagline: 'Documentação da API do Consultar.io para Desenvolvedores',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -73,8 +73,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        defaultMode: 'dark',
+        respectPrefersColorScheme: false,
+      },
+      image: 'img/web-app-manifest-512x512.png',
       navbar: {
         title: 'Consultar.io',
         items: [
