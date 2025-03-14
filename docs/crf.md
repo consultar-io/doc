@@ -1,4 +1,4 @@
-# CRF
+# CRF (Conselho Regional de Farmácia)
 
 ## Introdução
 
