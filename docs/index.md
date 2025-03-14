@@ -177,4 +177,5 @@ ou
 - O sistema possui um limite de 100 resultados para buscas por nome
 - As consultas são registradas no histórico de transações do usuário
 - O token de autenticação deve ser mantido em segurança
-- Em caso de perda ou comprometimento do token, você pode revogá-lo com o suporte
+- Em caso de perda ou comprometimento do token,
+  você pode revogá-lo com o suporte
