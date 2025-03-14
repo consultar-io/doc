@@ -1,43 +1,55 @@
-# CRO
+# CRO (Conselho Regional de Odontologia)
 
-## Consultar CRO
+## Introdução
 
-Consulta um CRO (Conselho Regional de Odontologia) específico.
+Esta API permite consultar e buscar informações sobre profissionais e
+estabelecimentos registrados nos Conselhos Regionais de Odontologia (CRO) do Brasil.
 
-### Endpoint
+## Endpoints
+
+### 1. Consultar
+
+Consulta detalhes de um registro específico.
+
+#### Endpoint
 
 `GET /api/cro/consultar/`
 
-### Parâmetros de Consulta
+#### Requisição
 
-- `uf` (string, opcional): UF do registro
-- `numero_registro` (string, obrigatório): Número do CRO (zeros à esquerda
-  são removidos automaticamente)
-- `categoria` (string, obrigatório): Categoria do profissional
+| Parâmetro         | Tipo    | Obrigatório | Descrição                                           | Exemplo  |
+| ----------------- | ------- | ----------- | --------------------------------------------------- | -------- |
+| `uf`              | Texto   | Sim         | UF do CRO                                           | `SP`     |
+| `numero_registro` | Inteiro | Sim         | Número do registro (zeros à esquerda são removidos) | `123456` |
+| `categoria`       | Texto   | Sim         | Categoria do profissional/estabelecimento           | `cd`     |
 
-**Categorias disponíveis:**
+#### Resposta
 
-- `cd`: Cirurgião Dentista
-- `tsb`: Técnico em Saúde Bucal
-- `tpd`: Técnico em Prótese Dentária
-- `asb`: Auxiliar em Saúde Bucal
-- `apd`: Auxiliar de Prótese Dentária
-- `estagiario`: Estagiário
-- `clinica-assistencia`: Clínica Dentária/Entidade Prestadora de Assistência
-  Odontológica
-- `laboratorio`: Laboratório de Prótese Dentária
-- `comercio-industria`: Empresa de Produtos Odontológicos
+| Parâmetro           | Tipo  | Descrição                                            | Exemplo              |
+| ------------------- | ----- | ---------------------------------------------------- | -------------------- |
+| `uf`                | Texto | UF do CRO                                            | `SP`                 |
+| `numero_registro`   | Texto | Número do registro                                   | `123456`             |
+| `categoria`         | Texto | Categoria do profissional/estabelecimento            | `CIRURGIÃO-DENTISTA` |
+| `nome_razao_social` | Texto | Nome ou razão social do profissional/estabelecimento | `JOÃO SILVA`         |
+| `situacao`          | Texto | Situação do registro                                 | `ATIVO`              |
 
-### Exemplo de Requisição (cURL)
+#### Erros
+
+| Código HTTP | Erro                     | Mensagem                                                   |
+| ----------- | ------------------------ | ---------------------------------------------------------- |
+| `403`       | `PLANO_INATIVO`          | `Plano inativo para realizar consultas.`                   |
+| `403`       | `CREDITOS_INSUFICIENTES` | `Sem créditos suficientes para consulta.`                  |
+| `404`       | `NAO_ENCONTRADO`         | `Nenhum registro encontrado com os parâmetros informados.` |
+
+#### Exemplos
+
+##### Exemplo de Requisição (cURL)
 
 ```bash
-curl -X GET 'https://consultar.io/api/cro/consultar?uf=sp&numero_registro=123456&categoria=cd' \
--H 'Authorization: Token <seu-token>'
+curl -X GET 'https://consultar.io/api/cro/consultar?uf=sp&numero_registro=123456&categoria=cd' -H 'Authorization: Token <seu-token>'
 ```
 
-### Respostas
-
-**Sucesso (200 OK):**
+##### Exemplo de Resposta de Sucesso (200)
 
 ```json
 {
@@ -49,27 +61,7 @@ curl -X GET 'https://consultar.io/api/cro/consultar?uf=sp&numero_registro=123456
 }
 ```
 
-ou
-
-**Erro (403 Forbidden):**
-
-```json
-{
-  "error": "PLANO_INATIVO",
-  "message": "Você não possui um plano ativo para realizar consultas."
-}
-```
-
-ou
-
-```json
-{
-  "error": "CREDITOS_INSUFICIENTES",
-  "message": "Você não possui créditos suficientes para realizar essa consulta."
-}
-```
-
-**Erro (404 Not Found):**
+##### Exemplo de Resposta de Erro (404)
 
 ```json
 {
@@ -78,30 +70,48 @@ ou
 }
 ```
 
-## Buscar CRO por Nome
+### 2. Buscar por Nome
 
-Busca profissionais por nome.
+Realiza busca de profissionais/estabelecimentos por nome.
 
-### Endpoint
+#### Endpoint
 
 `GET /api/cro/buscar/`
 
-### Parâmetros
+#### Requisição
 
-- `nome_razao_social` (string, obrigatório): Nome do profissional
-- `categoria` (string, obrigatório): Categoria do profissional (mesmas opções do
-  endpoint anterior)
+| Parâmetro         | Tipo  | Obrigatório | Descrição                                            | Exemplo      |
+| ----------------- | ----- | ----------- | ---------------------------------------------------- | ------------ |
+| nome_razao_social | Texto | Sim         | Nome ou razão social do profissional/estabelecimento | `joao silva` |
+| categoria         | Texto | Sim         | Categoria do profissional/estabelecimento            | `cd`         |
 
-### Exemplo de Requisição (cURL)
+#### Resposta
+
+| Parâmetro         | Tipo  | Descrição                                            | Exemplo              |
+| ----------------- | ----- | ---------------------------------------------------- | -------------------- |
+| uf                | Texto | UF do CRO                                            | `SP`                 |
+| numero_registro   | Texto | Número do registro                                   | `123456`             |
+| categoria         | Texto | Categoria do profissional/estabelecimento            | `CIRURGIÃO-DENTISTA` |
+| nome_razao_social | Texto | Nome ou razão social do profissional/estabelecimento | `JOÃO SILVA`         |
+
+#### Erros
+
+| Código HTTP | Erro                        | Mensagem                                                   |
+| ----------- | --------------------------- | ---------------------------------------------------------- |
+| `400`       | `LIMITE_RESULTADO_EXCEDIDO` | `Mais de 100 registros encontrados. Refine sua busca.`     |
+| `403`       | `PLANO_INATIVO`             | `Plano inativo para realizar consultas.`                   |
+| `403`       | `CREDITOS_INSUFICIENTES`    | `Sem créditos suficientes para consulta.`                  |
+| `404`       | `NAO_ENCONTRADO`            | `Nenhum registro encontrado com os parâmetros informados.` |
+
+#### Exemplos
+
+##### Exemplo de Requisição (cURL)
 
 ```bash
-curl -X GET 'https://consultar.io/api/cro/buscar?nome_razao_social=joao%20silva&categoria=cd' \
--H 'Authorization: Token <seu-token>'
+curl -X GET 'https://consultar.io/api/cro/buscar?nome_razao_social=joao%20silva&categoria=cd' -H 'Authorization: Token <seu-token>'
 ```
 
-### Respostas
-
-**Sucesso (200 OK):**
+##### Exemplo de Resposta de Sucesso (200 OK)
 
 ```json
 [
@@ -120,35 +130,7 @@ curl -X GET 'https://consultar.io/api/cro/buscar?nome_razao_social=joao%20silva&
 ]
 ```
 
-**Erro (400 Bad Request):**
-
-```json
-{
-  "error": "LIMITE_RESULTADO_EXCEDIDO",
-  "message": "Existem mais de 100 registros com os parâmetros informados.
-    Por favor, faça uma pesquisa mais específica."
-}
-```
-
-**Erro (403 Forbidden):**
-
-```json
-{
-  "error": "PLANO_INATIVO",
-  "message": "Você não possui um plano ativo para realizar consultas."
-}
-```
-
-ou
-
-```json
-{
-  "error": "CREDITOS_INSUFICIENTES",
-  "message": "Você não possui créditos suficientes para realizar essa consulta."
-}
-```
-
-**Erro (404 Not Found):**
+##### Exemplo de Resposta de Erro (404 Not Found)
 
 ```json
 {
@@ -157,11 +139,24 @@ ou
 }
 ```
 
-## Observações
+## Categorias
 
-- Todas as consultas consomem 1 crédito do plano do usuário
-- O sistema possui um limite de 100 resultados para buscas por nome
-- As consultas são registradas no histórico de transações do usuário
+| Código                | Descrição                                                        |
+| --------------------- | ---------------------------------------------------------------- |
+| `cd`                  | Cirurgião Dentista                                               |
+| `tsb`                 | Técnico em Saúde Bucal                                           |
+| `tpd`                 | Técnico em Prótese Dentária                                      |
+| `asb`                 | Auxiliar em Saúde Bucal                                          |
+| `apd`                 | Auxiliar de Prótese Dentária                                     |
+| `estagiario`          | Estagiário                                                       |
+| `clinica-assistencia` | Clínica Dentária/Entidade Prestadora de Assistência Odontológica |
+| `laboratorio`         | Laboratório de Prótese Dentária                                  |
+| `comercio-industria`  | Empresa de Produtos Odontológicos                                |
+
+## Limites e Considerações
+
+- Cada requisição consome 1 crédito do plano
+- Limite máximo de 100 resultados por busca
+- Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
-- Em caso de perda ou comprometimento do token,
-  você pode revogá-lo com o suporte
+- Em caso de comprometimento do token, contate o suporte para revogação
