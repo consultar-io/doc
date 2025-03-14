@@ -2,3 +2,4 @@
 cmds = ['mkdocs build']
 
 [start]
+cmd = ''
