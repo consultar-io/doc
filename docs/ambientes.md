@@ -10,4 +10,4 @@ A URL base para requisições ao ambiente de produção é:
 
 A URL base para requisições ao ambiente de desenvolvimento é:
 
-`https://consultar.dev/`
+`https://dev.consultar.io/`
