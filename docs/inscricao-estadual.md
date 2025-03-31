@@ -1,6 +1,9 @@
 # Inscrição Estadual
 
-> ⚠️ **Documentação em Elaboração**
+!!! warning "Documentação em Elaboração"
+
+    Essa documentação ainda está em elaboração. Entre em contato com o Suporte para
+    mais informações.
 
 ## Introdução
 
