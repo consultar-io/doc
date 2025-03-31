@@ -2,8 +2,8 @@
 
 ## Introdução
 
-Esta API permite consultar e buscar informações sobre profissionais e
-estabelecimentos registrados nos Conselhos Regionais de Medicina (CRM) do Brasil.
+Esta API permite consultar e buscar informações sobre médicos registrados nos
+Conselhos Regionais de Medicina (CRM) do Brasil.
 
 ## Endpoints
 
@@ -17,10 +17,10 @@ Consulta detalhes de um registro específico.
 
 #### Requisição
 
-| Parâmetro         | Tipo    | Obrigatório | Descrição                                           | Exemplo |
-| ----------------- | ------- | ----------- | --------------------------------------------------- | ------- |
-| `uf`              | Texto   | Sim         | UF do CRM                                           | `SP`    |
-| `numero_registro` | Inteiro | Sim         | Número do registro (zeros à esquerda são removidos) | `12344` |
+| Parâmetro         | Tipo    | Obrigatório | Descrição                                           | Exemplo   |
+| ----------------- | ------- | ----------- | --------------------------------------------------- | --------- |
+| `uf`              | Texto   | Sim         | UF do CRM                                           | `SP`      |
+| `numero_registro` | Inteiro | Sim         | Número do registro (zeros à esquerda são removidos) | `1234567` |
 
 #### Resposta
 
@@ -122,6 +122,12 @@ curl -X GET 'https://consultar.io/api/crm/buscar?nome_razao_social=joao%20silva'
     "numero_registro": "1234567",
     "categoria": "MÉDICO",
     "nome_razao_social": "JOÃO DA SILVA"
+  },
+  {
+    "uf": "SP",
+    "numero_registro": "1234568",
+    "categoria": "MÉDICO",
+    "nome_razao_social": "JOÃO DOS SANTOS SILVA"
   }
 ]
 ```
