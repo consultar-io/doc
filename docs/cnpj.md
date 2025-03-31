@@ -1,5 +1,7 @@
 # CNPJ (Cadastro Nacional de Pessoa Jurídica)
 
+> ⚠️ **Documentação em Elaboração**
+
 ## Introdução
 
 Esta API permite consultar e buscar informações sobre empresas e
