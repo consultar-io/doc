@@ -109,7 +109,7 @@ curl -X GET 'https://consultar.io/api/cnpj/consultar?cnpj=42515236000100' -H 'Au
 ##### Exemplo de Resposta de Sucesso (200)
 
 ```json
-0{
+{
   "cnpj": "42515236000100",
   "cnpj_formatado": "42.515.236/0001-00",
   "cnpj_base": "42515236",
