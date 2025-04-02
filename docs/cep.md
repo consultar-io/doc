@@ -1,4 +1,4 @@
-# Endereço por CEP (Beta)
+# CEP (Beta)
 
 ## Introdução
 
