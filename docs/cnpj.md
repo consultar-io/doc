@@ -38,7 +38,7 @@ Consulta detalhes de um CNPJ específico.
 | `capital_social_formatado`              | Texto  | Capital social formatado em reais                     | `"R$ 250.000,00"`                                                             |
 | `porte_empresa_codigo`                  | Texto  | Código do porte da empresa                            | `"01"`                                                                        |
 | `porte_empresa_descricao`               | Texto  | Descrição do porte da empresa (se aplicável)          | `"Microempresa (ME)"`                                                         |
-| `ente_federativo_responsavel`           | Texto  | Ente federativo responsável (se aplicável)            |                                                                               |
+| `ente_federativo_responsavel`           | Texto  | Ente federativo responsável (se aplicável)            | `""`                                                                          |
 | `matriz_filial_codigo`                  | Texto  | Código indicando se é matriz ou filial (se aplicável) | `"1"`                                                                         |
 | `matriz_filial_descricao`               | Texto  | Descrição (Matriz ou Filial)                          | `"Matriz"`                                                                    |
 | `situacao_cadastral_codigo`             | Texto  | Código da situação cadastral                          | `"02"`                                                                        |
@@ -91,12 +91,12 @@ Consulta detalhes de um CNPJ específico.
 
 #### Erros
 
-| Código HTTP | Erro                     | Mensagem                                                   |
-| ----------- | ------------------------ | ---------------------------------------------------------- |
-| `400`       | `CNPJ_INVALIDO`          | `CNPJ inválido.`                                           |
-| `403`       | `PLANO_INATIVO`          | `Plano inativo para realizar consultas.`                   |
-| `403`       | `CREDITOS_INSUFICIENTES` | `Sem créditos suficientes para consulta.`                  |
-| `404`       | `NAO_ENCONTRADO`         | `Nenhum registro encontrado com os parâmetros informados.` |
+| Código HTTP | Erro                       | Mensagem                                                     |
+| ----------- | -------------------------- | ------------------------------------------------------------ |
+| `400`       | `"CNPJ_INVALIDO"`          | `"CNPJ inválido."`                                           |
+| `403`       | `"PLANO_INATIVO"`          | `"Plano inativo para realizar consultas."`                   |
+| `403`       | `"CREDITOS_INSUFICIENTES"` | `"Sem créditos suficientes para consulta."`                  |
+| `404`       | `"NAO_ENCONTRADO"`         | `"Nenhum registro encontrado com os parâmetros informados."` |
 
 #### Exemplos
 
