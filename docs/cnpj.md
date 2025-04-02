@@ -23,71 +23,71 @@ Consulta detalhes de um CNPJ específico.
 
 #### Resposta
 
-| Campo                                   | Tipo   | Descrição                                             | Exemplo                                                                       |
-| --------------------------------------- | ------ | ----------------------------------------------------- | ----------------------------------------------------------------------------- |
-| `cnpj`                                  | Texto  | CNPJ completo (14 dígitos)                            | `"42515236000100"`                                                            |
-| `cnpj_formatado`                        | Texto  | CNPJ formatado (XX.XXX.XXX/XXXX-XX)                   | `"42.515.236/0001-00"`                                                        |
-| `cnpj_base`                             | Texto  | Base do CNPJ (8 primeiros dígitos)                    | `"42515236"`                                                                  |
-| `cnpj_ordem`                            | Texto  | Ordem do CNPJ (4 dígitos)                             | `"0001"`                                                                      |
-| `cnpj_dv`                               | Texto  | Dígitos verificadores do CNPJ (2 dígitos)             | `"00"`                                                                        |
-| `razao_social`                          | Texto  | Razão social da empresa                               | `"EXPANDA TECNOLOGIA DA INFORMACAO LTDA"`                                     |
-| `nome_fantasia`                         | Texto  | Nome fantasia da empresa                              | `"EXPANDA"`                                                                   |
-| `natureza_juridica_codigo`              | Texto  | Código da natureza jurídica                           | `"2062"`                                                                      |
-| `natureza_juridica_descricao`           | Texto  | Descrição da natureza jurídica                        | `"Sociedade Empresária Limitada"`                                             |
-| `capital_social`                        | Número | Capital social da empresa                             | `250000.0`                                                                    |
-| `capital_social_formatado`              | Texto  | Capital social formatado em reais                     | `"R$ 250.000,00"`                                                             |
-| `porte_empresa_codigo`                  | Texto  | Código do porte da empresa                            | `"01"`                                                                        |
-| `porte_empresa_descricao`               | Texto  | Descrição do porte da empresa (se aplicável)          | `"Microempresa (ME)"`                                                         |
-| `ente_federativo_responsavel`           | Texto  | Ente federativo responsável (se aplicável)            | `""`                                                                          |
-| `matriz_filial_codigo`                  | Texto  | Código indicando se é matriz ou filial (se aplicável) | `"1"`                                                                         |
-| `matriz_filial_descricao`               | Texto  | Descrição (Matriz ou Filial)                          | `"Matriz"`                                                                    |
-| `situacao_cadastral_codigo`             | Texto  | Código da situação cadastral                          | `"02"`                                                                        |
-| `situacao_cadastral_descricao`          | Texto  | Descrição da situação cadastral                       | `"Ativa"`                                                                     |
-| `data_situacao_cadastral`               | Data   | Data da última atualização da situação cadastral      | `"2021-06-29"`                                                                |
-| `motivo_situacao_cadastral_codigo`      | Texto  | Código do motivo da situação cadastral                | `"00"`                                                                        |
-| `motivo_situacao_cadastral_descricao`   | Texto  | Descrição do motivo da situação cadastral             | `"Sem motivo"`                                                                |
-| `situacao_especial`                     | Texto  | Situação especial da empresa (se aplicável)           | `""`                                                                          |
-| `data_situacao_especial`                | Data   | Data da situação especial (se aplicável)              | `null`                                                                        |
-| `cidade_exterior`                       | Texto  | Cidade no exterior (se aplicável)                     | `""`                                                                          |
-| `pais_exterior_codigo`                  | Texto  | Código do país no exterior (se aplicável)             | `""`                                                                          |
-| `pais_exterior_descricao`               | Texto  | Descrição do país no exterior (se aplicável)          | `""`                                                                          |
-| `data_inicio_atividades`                | Data   | Data de início das atividades                         | `"2021-06-29"`                                                                |
-| `cnae_principal_codigo`                 | Texto  | Código do CNAE principal                              | `"6209100"`                                                                   |
-| `cnae_principal_descricao`              | Texto  | Descrição do CNAE principal                           | `"Suporte técnico, manutenção e outros serviços em tecnologia da informação"` |
-| `lista_cnae_secundarios`                | Lista  | Lista de CNAEs secundários                            |                                                                               |
-| `lista_cnae_secundarios.codigo`         | Texto  | Código do CNAE secundário                             | `"6201501"`                                                                   |
-| `lista_cnae_secundarios.descricao`      | Texto  | Descrição do CNAE secundário                          | `"Desenvolvimento de programas de computador sob encomenda"`                  |
-| `tipo_logradouro`                       | Texto  | Tipo do logradouro                                    | `"AVENIDA"`                                                                   |
-| `logradouro`                            | Texto  | Nome do logradouro                                    | `"ENG LUIZ CARLOS BERRINI"`                                                   |
-| `numero`                                | Texto  | Número do endereço                                    | `"1748"`                                                                      |
-| `complemento`                           | Texto  | Complemento do endereço                               | `"CONJ 1710"`                                                                 |
-| `bairro`                                | Texto  | Bairro                                                | `"CIDADE MONCOES"`                                                            |
-| `cep`                                   | Texto  | CEP                                                   | `"04571000"`                                                                  |
-| `uf`                                    | Texto  | UF                                                    | `"SP"`                                                                        |
-| `municipio_codigo`                      | Texto  | Código do município                                   | `"7107"`                                                                      |
-| `municipio_descricao`                   | Texto  | Nome do município                                     | `"SAO PAULO"`                                                                 |
-| `ddd1`                                  | Texto  | DDD do telefone principal                             | `"41"`                                                                        |
-| `telefone1`                             | Texto  | Telefone principal                                    | `"96869828"`                                                                  |
-| `ddd2`                                  | Texto  | DDD do telefone secundário                            | `""`                                                                          |
-| `telefone2`                             | Texto  | Telefone secundário                                   | `""`                                                                          |
-| `ddd_fax`                               | Texto  | DDD do fax                                            | `""`                                                                          |
-| `fax`                                   | Texto  | Número do fax                                         | `""`                                                                          |
-| `email`                                 | Texto  | Email da empresa                                      | `"meucnpj@contabilizei.com.br"`                                               |
-| `lista_qsa`                             | Lista  | Lista de sócios e administradores                     |                                                                               |
-| `lista_qsa.tipo_qsa_codigo`             | Texto  | Código do tipo de sócio e administrador               | `"2"`                                                                         |
-| `lista_qsa.tipo_qsa_descricao`          | Texto  | Descrição do tipo de sócio e administrador            | `"PF"`                                                                        |
-| `lista_qsa.nome_qsa`                    | Texto  | Nome do sócio e administrador                         | `"GABRIEL DOMENEGHETTI DE BARROS"`                                            |
-| `lista_qsa.cpf_cnpj_qsa`                | Texto  | CPF/CNPJ do sócio e administrador                     | `"XXX670478XX"`                                                               |
-| `lista_qsa.cpf_cnpj_qsa_formatado`      | Texto  | CPF/CNPJ do sócio e administrador formatado           | `"XXX.670.478-XX"`                                                            |
-| `lista_qsa.qualificacao_qsa_codigo`     | Texto  | Código da qualificação do sócio e administrador       | `"49"`                                                                        |
-| `lista_qsa.qualificacao_qsa_descricao`  | Texto  | Descrição da qualificação do sócio e administrador    | `"Sócio-Administrador"`                                                       |
-| `lista_qsa.data_entrada_qsa`            | Data   | Data de entrada do sócio e administrador              | `"2021-06-29"`                                                                |
-| `lista_qsa.pais_exterior_qsa_codigo`    | Texto  | Código do país do sócio e administrador               | `"105"`                                                                       |
-| `lista_qsa.pais_exterior_qsa_descricao` | Texto  | Descrição do país do sócio e administrador            | `"Estados Unidos da America"`                                                 |
-| `lista_qsa.cpf_representante_legal_qsa` | Texto  | CPF do representante legal do sócio e administrador   | `"XXX670478XX"`                                                               |
-| `lista_qsa.nome_representante_qsa`      | Texto  | Nome do representante legal do sócio e administrador  | `"GABRIEL DOMENEGHETTI DE BARROS"`                                            |
-| `lista_qsa.faixa_etaria_qsa_codigo`     | Texto  | Código da faixa etária do sócio e administrador       | `"3"`                                                                         |
-| `lista_qsa.faixa_etaria_qsa_descricao`  | Texto  | Descrição da faixa etária do sócio e administrador    | `"21-30"`                                                                     |
+| Campo                                   | Tipo   | Descrição                                                         | Exemplo                                                                       |
+| --------------------------------------- | ------ | ----------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| `cnpj`                                  | Texto  | CNPJ completo (14 dígitos)                                        | `"42515236000100"`                                                            |
+| `cnpj_formatado`                        | Texto  | CNPJ formatado (XX.XXX.XXX/XXXX-XX)                               | `"42.515.236/0001-00"`                                                        |
+| `cnpj_base`                             | Texto  | Base do CNPJ (8 primeiros dígitos)                                | `"42515236"`                                                                  |
+| `cnpj_ordem`                            | Texto  | Ordem do CNPJ (4 dígitos)                                         | `"0001"`                                                                      |
+| `cnpj_dv`                               | Texto  | Dígitos verificadores do CNPJ (2 dígitos)                         | `"00"`                                                                        |
+| `razao_social`                          | Texto  | Razão social da empresa                                           | `"EXPANDA TECNOLOGIA DA INFORMACAO LTDA"`                                     |
+| `nome_fantasia`                         | Texto  | Nome fantasia da empresa                                          | `"EXPANDA"`                                                                   |
+| `natureza_juridica_codigo`              | Texto  | Código da natureza jurídica                                       | `"2062"`                                                                      |
+| `natureza_juridica_descricao`           | Texto  | Descrição da natureza jurídica                                    | `"Sociedade Empresária Limitada"`                                             |
+| `capital_social`                        | Número | Capital social da empresa                                         | `250000.0`                                                                    |
+| `capital_social_formatado`              | Texto  | Capital social formatado em reais                                 | `"R$ 250.000,00"`                                                             |
+| `porte_empresa_codigo`                  | Texto  | Código do porte da empresa                                        | `"01"`                                                                        |
+| `porte_empresa_descricao`               | Texto  | Descrição do porte da empresa (se aplicável)                      | `"Microempresa (ME)"`                                                         |
+| `ente_federativo_responsavel`           | Texto  | Ente federativo responsável (se aplicável)                        | `""`                                                                          |
+| `matriz_filial_codigo`                  | Texto  | Código indicando se é matriz ou filial (se aplicável)             | `"1"`                                                                         |
+| `matriz_filial_descricao`               | Texto  | Descrição (Matriz ou Filial)                                      | `"Matriz"`                                                                    |
+| `situacao_cadastral_codigo`             | Texto  | Código da situação cadastral                                      | `"02"`                                                                        |
+| `situacao_cadastral_descricao`          | Texto  | Descrição da situação cadastral                                   | `"Ativa"`                                                                     |
+| `data_situacao_cadastral`               | Data   | Data da última atualização da situação cadastral                  | `"2021-06-29"`                                                                |
+| `motivo_situacao_cadastral_codigo`      | Texto  | Código do motivo da situação cadastral                            | `"00"`                                                                        |
+| `motivo_situacao_cadastral_descricao`   | Texto  | Descrição do motivo da situação cadastral                         | `"Sem motivo"`                                                                |
+| `situacao_especial`                     | Texto  | Situação especial da empresa (se aplicável)                       | `""`                                                                          |
+| `data_situacao_especial`                | Data   | Data da situação especial (se aplicável)                          | `null`                                                                        |
+| `cidade_exterior`                       | Texto  | Cidade no exterior (se aplicável)                                 | `""`                                                                          |
+| `pais_exterior_codigo`                  | Texto  | Código do país no exterior (se aplicável)                         | `""`                                                                          |
+| `pais_exterior_descricao`               | Texto  | Descrição do país no exterior (se aplicável)                      | `""`                                                                          |
+| `data_inicio_atividades`                | Data   | Data de início das atividades                                     | `"2021-06-29"`                                                                |
+| `cnae_principal_codigo`                 | Texto  | Código do CNAE principal                                          | `"6209100"`                                                                   |
+| `cnae_principal_descricao`              | Texto  | Descrição do CNAE principal                                       | `"Suporte técnico, manutenção e outros serviços em tecnologia da informação"` |
+| `lista_cnae_secundarios`                | Lista  | Lista de CNAEs secundários                                        | Lista                                                                         |
+| `lista_cnae_secundarios.codigo`         | Texto  | Código do CNAE secundário                                         | `"6201501"`                                                                   |
+| `lista_cnae_secundarios.descricao`      | Texto  | Descrição do CNAE secundário                                      | `"Desenvolvimento de programas de computador sob encomenda"`                  |
+| `tipo_logradouro`                       | Texto  | Tipo do logradouro                                                | `"AVENIDA"`                                                                   |
+| `logradouro`                            | Texto  | Nome do logradouro                                                | `"ENG LUIZ CARLOS BERRINI"`                                                   |
+| `numero`                                | Texto  | Número do endereço                                                | `"1748"`                                                                      |
+| `complemento`                           | Texto  | Complemento do endereço                                           | `"CONJ 1710"`                                                                 |
+| `bairro`                                | Texto  | Bairro                                                            | `"CIDADE MONCOES"`                                                            |
+| `cep`                                   | Texto  | CEP                                                               | `"04571000"`                                                                  |
+| `uf`                                    | Texto  | UF                                                                | `"SP"`                                                                        |
+| `municipio_codigo`                      | Texto  | Código do município                                               | `"7107"`                                                                      |
+| `municipio_descricao`                   | Texto  | Nome do município                                                 | `"SAO PAULO"`                                                                 |
+| `ddd1`                                  | Texto  | DDD do telefone principal                                         | `"41"`                                                                        |
+| `telefone1`                             | Texto  | Telefone principal                                                | `"96869828"`                                                                  |
+| `ddd2`                                  | Texto  | DDD do telefone secundário                                        | `""`                                                                          |
+| `telefone2`                             | Texto  | Telefone secundário                                               | `""`                                                                          |
+| `ddd_fax`                               | Texto  | DDD do fax                                                        | `""`                                                                          |
+| `fax`                                   | Texto  | Número do fax                                                     | `""`                                                                          |
+| `email`                                 | Texto  | Email da empresa                                                  | `"meucnpj@contabilizei.com.br"`                                               |
+| `lista_qsa`                             | Lista  | Lista de sócios/administradores                                   | Lista                                                                         |
+| `lista_qsa.tipo_qsa_codigo`             | Texto  | Código do tipo de sócio/administrador                             | `"2"`                                                                         |
+| `lista_qsa.tipo_qsa_descricao`          | Texto  | Descrição do tipo de sócio/administrador                          | `"PF"`                                                                        |
+| `lista_qsa.nome_qsa`                    | Texto  | Nome do sócio/administrador                                       | `"GABRIEL DOMENEGHETTI DE BARROS"`                                            |
+| `lista_qsa.cpf_cnpj_qsa`                | Texto  | CPF ou CNPJ do sócio/administrador                                | `"XXX670478XX"`                                                               |
+| `lista_qsa.cpf_cnpj_qsa_formatado`      | Texto  | CPF ou CNPJ do sócio e administrador formatado                    | `"XXX.670.478-XX"`                                                            |
+| `lista_qsa.qualificacao_qsa_codigo`     | Texto  | Código da qualificação do sócio e administrador                   | `"49"`                                                                        |
+| `lista_qsa.qualificacao_qsa_descricao`  | Texto  | Descrição da qualificação do sócio/administrador                  | `"Sócio-Administrador"`                                                       |
+| `lista_qsa.data_entrada_qsa`            | Data   | Data de entrada do sócio/administrador                            | `"2021-06-29"`                                                                |
+| `lista_qsa.pais_exterior_qsa_codigo`    | Texto  | Código do país do sócio/administrador (se aplicável)              | `""`                                                                          |
+| `lista_qsa.pais_exterior_qsa_descricao` | Texto  | Descrição do país do sócio/administrador (se aplicável)           | `""`                                                                          |
+| `lista_qsa.cpf_representante_legal_qsa` | Texto  | CPF do representante legal do sócio/administrador (se aplicável)  | `""`                                                                          |
+| `lista_qsa.nome_representante_qsa`      | Texto  | Nome do representante legal do sócio/administrador (se aplicável) | `""`                                                                          |
+| `lista_qsa.faixa_etaria_qsa_codigo`     | Texto  | Código da faixa etária do sócio/administrador                     | `"3"`                                                                         |
+| `lista_qsa.faixa_etaria_qsa_descricao`  | Texto  | Descrição da faixa etária do sócio/administrador                  | `"21-30"`                                                                     |
 
 #### Erros
 
