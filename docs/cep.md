@@ -1,8 +1,8 @@
-# CEP (Beta)
+# Endereço por CEP (Beta)
 
 ## Introdução
 
-Esta API permite consultar os dados de um CEP do Brasil.
+Esta API permite consultar os dados de um endereço a partir de um CEP.
 
 !!! warning "Documentação em Elaboração"
 

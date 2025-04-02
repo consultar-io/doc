@@ -12,8 +12,8 @@ sobre estabelecimentos, pessoas, profissionais e endereços.
 
 ## Autenticação
 
-Consulte a documentação de [Autenticação](./autenticacao.md) para mais informações sobre
-o processo de autenticação.
+Consulte a documentação de [Autenticação](./autenticacao.md) para mais
+informações sobre o processo de autenticação.
 
 ## Ambientes
 
@@ -28,12 +28,10 @@ buscar informações sobre estabelecimentos, pessoas, profissionais e endereços
 Consulte a documentação de cada endpoint para mais informações.
 
 - [CNPJ](./cnpj.md)
-- [CPF](./cpf.md)
-- [Inscrição Estadual](./inscricao-estadual.md)
+- [Inscrição Estadual (Beta)](./inscricao-estadual.md)
 - [CRM](./crm.md)
 - [CRO](./cro.md)
-- [CRBM](./crbm.md)
-- [CRF](./crf.md)
-- [CRP](./crp.md)
-- [CEP](./cep.md)
-- [Latitude e Longitude](./latitude-longitude.md)
+- [CRBM (Beta)](./crbm.md)
+- [CRF (Beta)](./crf.md)
+- [CEP (Beta)](./cep.md)
+- [Latitude e Longitude (Beta)](./latitude-longitude.md)
