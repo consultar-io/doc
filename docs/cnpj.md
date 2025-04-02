@@ -91,12 +91,12 @@ Consulta detalhes de um CNPJ específico.
 
 #### Erros
 
-| Código HTTP | Erro                       | Mensagem                                                     |
-| ----------- | -------------------------- | ------------------------------------------------------------ |
-| `400`       | `"CNPJ_INVALIDO"`          | `"CNPJ inválido."`                                           |
-| `403`       | `"PLANO_INATIVO"`          | `"Plano inativo para realizar consultas."`                   |
-| `403`       | `"CREDITOS_INSUFICIENTES"` | `"Sem créditos suficientes para consulta."`                  |
-| `404`       | `"NAO_ENCONTRADO"`         | `"Nenhum registro encontrado com os parâmetros informados."` |
+| Código HTTP | Erro                     | Mensagem                                                   |
+| ----------- | ------------------------ | ---------------------------------------------------------- |
+| `400`       | `CNPJ_INVALIDO`          | `CNPJ inválido.`                                           |
+| `403`       | `PLANO_INATIVO`          | `Plano inativo para realizar consultas.`                   |
+| `403`       | `CREDITOS_INSUFICIENTES` | `Sem créditos suficientes para consulta.`                  |
+| `404`       | `NAO_ENCONTRADO`         | `Nenhum registro encontrado com os parâmetros informados.` |
 
 #### Exemplos
 
