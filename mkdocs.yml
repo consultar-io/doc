@@ -7,6 +7,7 @@ theme:
     scheme: slate
   features:
     - content.code.copy
+    - navigation.footer
   icon:
     admonition:
       note: octicons/tag-16
@@ -21,8 +22,6 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-  footer: |
-    Consultar.io - Expanda Tecnologia da Informação LTDA. (CNPJ 42.515.236/0001-00)
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -48,3 +47,8 @@ nav:
   - CEP (Beta): cep.md
   - Latitude e Longitude (Beta): latitude-longitude.md
   - Suporte: suporte.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/consultar-io/
+copyright: Consultar.io - Expanda Tecnologia da Informação LTDA. (CNPJ 42.515.236/0001-00)
