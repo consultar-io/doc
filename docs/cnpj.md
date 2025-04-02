@@ -59,7 +59,7 @@ Consulta detalhes de um CNPJ específico.
 | `lista_cnae_secundarios.descricao`      | Texto  | Descrição do CNAE secundário                          | `"Desenvolvimento de programas de computador sob encomenda"`                  |
 | `tipo_logradouro`                       | Texto  | Tipo do logradouro                                    | `"AVENIDA"`                                                                   |
 | `logradouro`                            | Texto  | Nome do logradouro                                    | `"ENG LUIZ CARLOS BERRINI"`                                                   |
-| `numero`                                | Texto  | Número do endereço                                    | `" 1748"`                                                                     |
+| `numero`                                | Texto  | Número do endereço                                    | `"1748"`                                                                      |
 | `complemento`                           | Texto  | Complemento do endereço                               | `"CONJ 1710"`                                                                 |
 | `bairro`                                | Texto  | Bairro                                                | `"CIDADE MONCOES"`                                                            |
 | `cep`                                   | Texto  | CEP                                                   | `"04571000"`                                                                  |
