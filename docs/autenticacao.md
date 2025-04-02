@@ -28,3 +28,8 @@ Para obter um token de autenticação no ambiente de desenvolvimento:
 O token deve ser enviado no cabeçalho `Authorization` da requisição:
 
 `Authorization: Token <seu-token>`
+
+## Limites e Considerações
+
+- O token de autenticação deve ser mantido em segurança
+- Em caso de comprometimento do token, entre em contato com o Suporte

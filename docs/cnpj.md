@@ -322,4 +322,4 @@ curl -X GET 'https://consultar.io/api/cnpj/consultar?cnpj=42515236000100' -H 'Au
 - Cada requisição consome 1 crédito do plano
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
-- Em caso de comprometimento do token, contate o suporte para revogação
+- Em caso de comprometimento do token, entre em contato com o Suporte

@@ -159,4 +159,4 @@ curl -X GET 'https://consultar.io/api/cro/buscar?nome_razao_social=joao%20silva&
 - Limite máximo de 100 resultados por busca
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
-- Em caso de comprometimento do token, contate o suporte para revogação
+- Em caso de comprometimento do token, entre em contato com o Suporte
