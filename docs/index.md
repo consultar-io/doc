@@ -1,4 +1,4 @@
-# Consultar.io - Documentação para Desenvolvedores
+# Documentação para Desenvolvedores
 
 ## Introdução
 
