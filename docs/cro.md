@@ -151,7 +151,7 @@ curl -X GET 'https://consultar.io/api/cro/buscar?nome_razao_social=joao%20silva&
 | `estagiario`          | Estagiário                                              |
 | `clinica-assistencia` | Clínica/Entidade Prestadora de Assistência Odontológica |
 | `laboratorio`         | Laboratório de Prótese Dentária                         |
-| `comercio-industria`  | Comercio/Industria de Produtos Odontológicos            |
+| `comercio-industria`  | Comércio/Indústria de Produtos Odontológicos            |
 
 ## Limites e Considerações
 
