@@ -5,6 +5,7 @@ theme:
   language: pt
   palette:
     scheme: slate
+    primary: black
   features:
     - content.code.copy
     - navigation.footer
