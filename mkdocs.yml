@@ -21,6 +21,8 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
+  footer: |
+    Consultar.io - Expanda Tecnologia da Informação LTDA. (CNPJ 42.515.236/0001-00)
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
