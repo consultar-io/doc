@@ -17,10 +17,10 @@ Consulta detalhes de um registro específico.
 
 #### Requisição
 
-| Parâmetro         | Tipo    | Obrigatório | Descrição                                           | Exemplo   |
-| ----------------- | ------- | ----------- | --------------------------------------------------- | --------- |
-| `uf`              | Texto   | Sim         | UF do CRM                                           | `SP`      |
-| `numero_registro` | Inteiro | Sim         | Número do registro (zeros à esquerda são removidos) | `1234567` |
+| Parâmetro         | Tipo  | Obrigatório | Descrição                                                          | Exemplo   |
+| ----------------- | ----- | ----------- | ------------------------------------------------------------------ | --------- |
+| `uf`              | Texto | Sim         | UF do CRM                                                          | `SP`      |
+| `numero_registro` | Texto | Sim         | Número do registro (até 7 dígitos, zeros à esquerda são removidos) | `1234567` |
 
 #### Resposta
 
