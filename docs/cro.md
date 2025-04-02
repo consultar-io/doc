@@ -141,17 +141,17 @@ curl -X GET 'https://consultar.io/api/cro/buscar?nome_razao_social=joao%20silva&
 
 ## Categorias
 
-| Código                | Descrição                                                        |
-| --------------------- | ---------------------------------------------------------------- |
-| `cd`                  | Cirurgião Dentista                                               |
-| `tsb`                 | Técnico em Saúde Bucal                                           |
-| `tpd`                 | Técnico em Prótese Dentária                                      |
-| `asb`                 | Auxiliar em Saúde Bucal                                          |
-| `apd`                 | Auxiliar de Prótese Dentária                                     |
-| `estagiario`          | Estagiário                                                       |
-| `clinica-assistencia` | Clínica Dentária/Entidade Prestadora de Assistência Odontológica |
-| `laboratorio`         | Laboratório de Prótese Dentária                                  |
-| `comercio-industria`  | Empresa de Produtos Odontológicos                                |
+| Código                | Descrição                                               |
+| --------------------- | ------------------------------------------------------- |
+| `cd`                  | Cirurgião Dentista                                      |
+| `tsb`                 | Técnico em Saúde Bucal                                  |
+| `tpd`                 | Técnico em Prótese Dentária                             |
+| `asb`                 | Auxiliar em Saúde Bucal                                 |
+| `apd`                 | Auxiliar de Prótese Dentária                            |
+| `estagiario`          | Estagiário                                              |
+| `clinica-assistencia` | Clínica/Entidade Prestadora de Assistência Odontológica |
+| `laboratorio`         | Laboratório de Prótese Dentária                         |
+| `comercio-industria`  | Comercio/Industria de Produtos Odontológicos            |
 
 ## Limites e Considerações
 
