@@ -7,4 +7,4 @@ Conselhos Regionais de Farmácia (CRF) do Brasil.
 
 !!! warning "Documentação em Elaboração"
 
-    Essa API está em beta, entre em contato com o Suporte para solicitar acesso.
+    Essa API está em Beta, entre em contato com o Suporte para solicitar acesso.

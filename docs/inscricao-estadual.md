@@ -6,4 +6,4 @@ Esta API permite consultar e buscar informações sobre Inscrições Estaduais d
 
 !!! warning "Documentação em Elaboração"
 
-    Essa API está em beta, entre em contato com o Suporte para solicitar acesso.
+    Essa API está em Beta, entre em contato com o Suporte para solicitar acesso.
