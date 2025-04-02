@@ -1,10 +1,9 @@
-# CEP (Código de Endereçamento Postal)
-
-!!! warning "Documentação em Elaboração"
-
-    Essa documentação ainda está em elaboração. Entre em contato com o Suporte para
-    mais informações.
+# CEP (Beta)
 
 ## Introdução
 
 Esta API permite consultar os dados de um CEP do Brasil.
+
+!!! warning "Documentação em Elaboração"
+
+    Essa API está em beta, entre em contato com o Suporte para solicitar acesso.

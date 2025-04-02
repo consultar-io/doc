@@ -1,4 +1,4 @@
-# CRM (Conselho Regional de Medicina)
+# CRM - Conselho Regional de Medicina
 
 ## Introdução
 

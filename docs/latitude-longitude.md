@@ -1,10 +1,9 @@
-# Latitude e Longitude
-
-!!! warning "Documentação em Elaboração"
-
-    Essa documentação ainda está em elaboração. Entre em contato com o Suporte para
-    mais informações.
+# Latitude e Longitude (Beta)
 
 ## Introdução
 
 Esta API permite consultar a latitude e longitude de um endereço.
+
+!!! warning "Documentação em Elaboração"
+
+    Essa API está em beta, entre em contato com o Suporte para solicitar acesso.

@@ -1,4 +1,4 @@
-# CRO (Conselho Regional de Odontologia)
+# CRO - Conselho Regional de Odontologia
 
 ## Introdução
 
