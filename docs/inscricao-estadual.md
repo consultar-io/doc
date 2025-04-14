@@ -1,4 +1,4 @@
-# Inscrição Estadual (Beta)
+# IE - Inscrição Estadual (Beta)
 
 ## Introdução
 

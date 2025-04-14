@@ -40,13 +40,13 @@ nav:
   - Ambientes: ambientes.md
   - Autenticação: autenticacao.md
   - CNPJ: cnpj.md
-  - Inscrição Estadual (Beta): inscricao-estadual.md
+  - IE: inscricao-estadual.md
   - CRM: crm.md
   - CRO: cro.md
-  - CRBM (Beta): crbm.md
-  - CRF (Beta): crf.md
-  - CEP (Beta): cep.md
-  - Latitude e Longitude (Beta): latitude-longitude.md
+  - CRBM: crbm.md
+  - CRF: crf.md
+  - CEP: cep.md
+  - Latitude/Longitude: latitude-longitude.md
   - Suporte: suporte.md
 extra:
   social:

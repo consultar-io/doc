@@ -1,4 +1,4 @@
-# Latitude e Longitude (Beta)
+# Latitude/Longitude (Beta)
 
 ## Introdução
 

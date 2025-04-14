@@ -28,10 +28,10 @@ buscar informações sobre estabelecimentos, pessoas, profissionais e endereços
 Consulte a documentação de cada endpoint para mais informações.
 
 - [CNPJ](./cnpj.md)
-- [Inscrição Estadual (Beta)](./inscricao-estadual.md)
+- [IE](./inscricao-estadual.md)
 - [CRM](./crm.md)
 - [CRO](./cro.md)
-- [CRBM (Beta)](./crbm.md)
-- [CRF (Beta)](./crf.md)
-- [CEP (Beta)](./cep.md)
-- [Latitude e Longitude (Beta)](./latitude-longitude.md)
+- [CRBM](./crbm.md)
+- [CRF](./crf.md)
+- [CEP](./cep.md)
+- [Latitude/Longitude](./latitude-longitude.md)
