@@ -47,7 +47,7 @@ Consulta detalhes de um registro específico.
 ##### Exemplo de Requisição (cURL)
 
 ```bash
-curl -X GET 'https://consultar.io/api/cro/consultar?uf=sp&numero_registro=123456&categoria=cd' -H 'Authorization: Token <seu-token>'
+curl -X GET 'https://consultar.io/api/v1/cro/consultar?uf=sp&numero_registro=123456&categoria=cd' -H 'Authorization: Token <seu-token>'
 ```
 
 ##### Exemplo de Resposta de Sucesso (200)
@@ -110,7 +110,7 @@ Realiza busca de profissionais/estabelecimentos por nome.
 ##### Exemplo de Requisição (cURL)
 
 ```bash
-curl -X GET 'https://consultar.io/api/cro/buscar?nome_razao_social=joao%20silva&categoria=cd' -H 'Authorization: Token <seu-token>'
+curl -X GET 'https://consultar.io/api/v1/cro/buscar?nome_razao_social=joao%20silva&categoria=cd' -H 'Authorization: Token <seu-token>'
 ```
 
 ##### Exemplo de Resposta de Sucesso (200 OK)

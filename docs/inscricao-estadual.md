@@ -67,7 +67,7 @@ Consulta detalhes de uma Inscrição Estadual específica.
 ##### Exemplo de Requisição (cURL)
 
 ```bash
-curl -X GET 'https://consultar.io/api/ie/consultar?uf=SP&cnpj_cpf=61585865150633' -H 'Authorization: Token <seu-token>'
+curl -X GET 'https://consultar.io/api/v1/ie/consultar?uf=SP&cnpj_cpf=61585865150633' -H 'Authorization: Token <seu-token>'
 ```
 
 ##### Exemplo de Resposta de Sucesso (200)

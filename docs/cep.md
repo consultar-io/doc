@@ -46,7 +46,7 @@ Consulta detalhes de um CEP específico.
 ##### Exemplo de Requisição (cURL)
 
 ```bash
-curl -X GET 'https://consultar.io/api/cep/consultar?cep=04571000' -H 'Authorization: Token <seu-token>'
+curl -X GET 'https://consultar.io/api/v1/cep/consultar?cep=04571000' -H 'Authorization: Token <seu-token>'
 ```
 
 ##### Exemplo de Resposta de Sucesso (200)

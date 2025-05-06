@@ -42,7 +42,7 @@ Consulta as coordenadas geográficas de um endereço específico.
 ##### Exemplo de Requisição (cURL)
 
 ```bash
-curl -X GET 'https://consultar.io/api/latitude-longitude/consultar?endereco=av%20eng%20luis%20carlos%20berrini%201748' -H 'Authorization: Token <seu-token>'
+curl -X GET 'https://consultar.io/api/v1/latitude-longitude/consultar?endereco=av%20eng%20luis%20carlos%20berrini%201748' -H 'Authorization: Token <seu-token>'
 ```
 
 ##### Exemplo de Resposta de Sucesso (200)

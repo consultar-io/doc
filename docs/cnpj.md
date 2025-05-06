@@ -103,7 +103,7 @@ Consulta detalhes de um CNPJ específico.
 ##### Exemplo de Requisição (cURL)
 
 ```bash
-curl -X GET 'https://consultar.io/api/cnpj/consultar?cnpj=42515236000100' -H 'Authorization: Token <seu-token>'
+curl -X GET 'https://consultar.io/api/v1/cnpj/consultar?cnpj=42515236000100' -H 'Authorization: Token <seu-token>'
 ```
 
 ##### Exemplo de Resposta de Sucesso (200)
