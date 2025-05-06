@@ -72,12 +72,15 @@ curl -X GET 'https://consultar.io/api/cep/consultar?cep=04571000' -H 'Authorizat
 }
 ```
 
+## Observações
+
+- O CEP pode ser informado com ou sem hífen
+- As coordenadas geográficas (latitude e longitude) são aproximadas para a
+  região do CEP
+
 ## Limites e Considerações
 
 - Cada requisição de "Consultar" consome 1 crédito
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte
-- O CEP pode ser informado com ou sem hífen
-- As coordenadas geográficas (latitude e longitude) são aproximadas para a
-  região do CEP

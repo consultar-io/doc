@@ -64,11 +64,13 @@ curl -X GET 'https://consultar.io/api/latitude-longitude/consultar?endereco=av%2
 }
 ```
 
+## Observações
+
+- O endereço deve ser informado da forma mais completa possível para maior precisão
+
 ## Limites e Considerações
 
 - Cada requisição de "Consultar" consome 1 crédito
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte
-- O endereço deve ser informado da forma mais completa possível para maior precisão
-- As coordenadas geográficas retornadas são precisas para o número do endereço informado

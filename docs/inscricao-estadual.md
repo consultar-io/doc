@@ -111,30 +111,9 @@ curl -X GET 'https://consultar.io/api/ie/consultar?uf=SP&cnpj_cpf=61585865150633
 }
 ```
 
-## Códigos
-
-### Situação da Inscrição Estadual
-
-| Código       | Descrição  |
-| ------------ | ---------- |
-| `HABILITADO` | Habilitado |
-| `SUSPENSO`   | Suspenso   |
-| `BAIXADO`    | Baixado    |
-| `CANCELADO`  | Cancelado  |
-| `NULO`       | Nulo       |
-
-### Regime de Tributação
-
-| Código    | Descrição                    |
-| --------- | ---------------------------- |
-| `NORMAL`  | Regime Normal                |
-| `SIMPLES` | Simples Nacional             |
-| `MEI`     | Microempreendedor Individual |
-
 ## Limites e Considerações
 
 - Cada requisição de "Consultar" consome 1 crédito
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte
-- A disponibilidade e formato das informações podem variar de acordo com a UF consultada
