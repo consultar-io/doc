@@ -18,16 +18,16 @@ Consulta detalhes de uma Inscrição Estadual específica.
 
 #### Requisição
 
-| Parâmetro  | Tipo  | Obrigatório | Descrição                                | Exemplo          |
-| ---------- | ----- | ----------- | ---------------------------------------- | ---------------- |
-| `uf`       | Texto | Sim         | Unidade Federativa da Inscrição Estadual | `SP`             |
-| `cnpj_cpf` | Texto | Sim         | CNPJ ou CPF do contribuinte              | `61585865150633` |
+| Parâmetro       | Tipo  | Obrigatório | Descrição                                | Exemplo          |
+| --------------- | ----- | ----------- | ---------------------------------------- | ---------------- |
+| `uf`            | Texto | Sim         | Unidade Federativa da Inscrição Estadual | `SP`             |
+| `cnpj` ou `cpf` | Texto | Sim         | CNPJ ou CPF do contribuinte              | `61585865150633` |
 
 #### Resposta
 
 | Campo                   | Tipo  | Descrição                                              | Exemplo                   |
 | ----------------------- | ----- | ------------------------------------------------------ | ------------------------- |
-| `cnpj`                  | Texto | CNPJ do contribuinte                                   | `"61585865150633"`        |
+| `cnpj`                  | Texto | CNPJ ou CPF do contribuinte                            | `"61585865150633"`        |
 | `razao_social`          | Texto | Razão social da empresa                                | `"RAIA DROGASIL S/A"`     |
 | `nome_fantasia`         | Texto | Nome fantasia da empresa                               | `""`                      |
 | `uf_ie`                 | Texto | Unidade Federativa da Inscrição Estadual               | `"SP"`                    |
