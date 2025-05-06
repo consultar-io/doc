@@ -100,6 +100,7 @@ Realiza busca de médicos por nome.
 
 | Código HTTP | Erro                        | Mensagem                                                   |
 | ----------- | --------------------------- | ---------------------------------------------------------- |
+| `400`       | `REQUISICAO_INVALIDA`       |                                                            |
 | `400`       | `LIMITE_RESULTADO_EXCEDIDO` | `Mais de 100 registros encontrados. Refine sua busca.`     |
 | `403`       | `PLANO_INATIVO`             | `Plano inativo para realizar consultas.`                   |
 | `403`       | `CREDITOS_INSUFICIENTES`    | `Sem créditos suficientes para consulta.`                  |

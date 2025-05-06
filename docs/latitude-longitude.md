@@ -32,6 +32,7 @@ Consulta as coordenadas geográficas de um endereço específico.
 
 | Código HTTP | Erro                     | Mensagem                                                   |
 | ----------- | ------------------------ | ---------------------------------------------------------- |
+| `400`       | `REQUISICAO_INVALIDA`    |                                                            |
 | `403`       | `PLANO_INATIVO`          | `Plano inativo para realizar consultas.`                   |
 | `403`       | `CREDITOS_INSUFICIENTES` | `Sem créditos suficientes para consulta.`                  |
 | `404`       | `NAO_ENCONTRADO`         | `Nenhum registro encontrado com os parâmetros informados.` |
