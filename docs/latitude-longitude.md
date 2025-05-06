@@ -12,7 +12,7 @@ Consulta as coordenadas geográficas de um endereço específico.
 
 #### Endpoint
 
-`GET /api/latitude-longitude/consultar`
+`GET /api/v1/latitude-longitude/consultar`
 
 #### Requisição
 

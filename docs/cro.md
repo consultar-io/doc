@@ -13,7 +13,7 @@ Consulta detalhes de um registro específico.
 
 #### Endpoint
 
-`GET /api/cro/consultar`
+`GET /api/v1/cro/consultar`
 
 #### Requisição
 
@@ -77,7 +77,7 @@ Realiza busca de profissionais/estabelecimentos por nome.
 
 #### Endpoint
 
-`GET /api/cro/buscar/`
+`GET /api/v1/cro/buscar/`
 
 #### Requisição
 
