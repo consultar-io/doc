@@ -12,7 +12,7 @@ Consulta detalhes de um CEP específico.
 
 #### Endpoint
 
-`GET /api/cep/consultar/`
+`GET /api/cep/consultar`
 
 #### Requisição
 

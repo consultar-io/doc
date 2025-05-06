@@ -13,7 +13,7 @@ Consulta detalhes de um registro específico.
 
 #### Endpoint
 
-`GET /api/cro/consultar/`
+`GET /api/cro/consultar`
 
 #### Requisição
 
