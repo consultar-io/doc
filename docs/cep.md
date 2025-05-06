@@ -1,9 +1,8 @@
-# CEP - Código de Endereçamento Postal
+# CEP
 
 ## Introdução
 
-Esta API permite consultar os dados de um endereço a partir de um CEP (Código de
-Endereçamento Postal).
+Esta API permite consultar os dados de um endereço a partir de um CEP.
 
 ## Endpoints
 
