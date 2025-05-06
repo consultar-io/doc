@@ -80,7 +80,7 @@ Realiza busca de médicos por nome.
 
 #### Endpoint
 
-`GET /api/v1/crm/buscar/`
+`GET /api/v1/crm/buscar`
 
 #### Requisição
 

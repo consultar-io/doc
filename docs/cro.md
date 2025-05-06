@@ -77,7 +77,7 @@ Realiza busca de profissionais/estabelecimentos por nome.
 
 #### Endpoint
 
-`GET /api/v1/cro/buscar/`
+`GET /api/v1/cro/buscar`
 
 #### Requisição
 
