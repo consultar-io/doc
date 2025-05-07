@@ -2,6 +2,7 @@ site_name: Desenvolvedores - Consultar.io
 site_url: https://consultar.dev
 theme:
   name: material
+  custom_dir: overrides
   language: pt
   palette:
     scheme: slate
