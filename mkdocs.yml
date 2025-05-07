@@ -56,4 +56,8 @@ extra:
     provider: custom
     property: phc_Q7stlDDd5WU2m3lf8F1oiYyd5XPf3ggtnSYT6up6VlA
     host: https://us.i.posthog.com
+  consent:
+    title: Consentimento de Cookies
+    description: >-
+      Utilizamos cookies e tecnologias de rastreamento semelhantes para auxiliar a navegação em nosso site, melhorar nossos serviços e analisar nosso tráfego.
 copyright: Expanda Tecnologia da Informação LTDA. (CNPJ 42.515.236/0001-00)
