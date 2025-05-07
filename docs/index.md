@@ -2,8 +2,7 @@
 
 ## Introdução
 
-O [Consultar.io](https://consultar.io) é uma solução completa para consultas de
-dados cadastrais.
+O [Consultar.io](https://consultar.io?utm_source=docs&utm_medium=referral&utm_campaign=link) é uma solução completa para consultas de dados cadastrais.
 
 ## Sobre
 
