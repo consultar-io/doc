@@ -52,4 +52,8 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/consultar-io/
+  analytics:
+    provider: custom
+    property: phc_Q7stlDDd5WU2m3lf8F1oiYyd5XPf3ggtnSYT6up6VlA
+    host: https://us.i.posthog.com
 copyright: Expanda Tecnologia da Informação LTDA. (CNPJ 42.515.236/0001-00)
