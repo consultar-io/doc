@@ -51,7 +51,7 @@ Consulta detalhes de um CPF específico.
 ##### Exemplo de Requisição (cURL)
 
 ```bash
-curl -X GET 'https://consultar.io/api/v1/cpf/consultar?cpf=12345678900&data_nascimento=01/01/1990' -H 'Authorization: Token <seu-token>'
+curl -X GET 'https://consultar.io/api/v1/cpf/consultar?cpf=12345678900&data_nascimento=1990-01-01' -H 'Authorization: Token <seu-token>'
 ```
 
 ##### Exemplo de Resposta de Sucesso (200)
@@ -60,12 +60,12 @@ curl -X GET 'https://consultar.io/api/v1/cpf/consultar?cpf=12345678900&data_nasc
 {
   "cpf": "12345678900",
   "nome": "MARIA DA SILVA SANTOS",
-  "data_nascimento": "01/01/1990",
+  "data_nascimento": "1990-01-01",
   "situacao": "REGULAR",
-  "data_inscricao": "15/03/2005",
+  "data_inscricao": "2005-03-15",
   "digito_verificador": "00",
   "codigo_controle": "2406.5A89.0E54.747B",
-  "data_emissao": "09/05/2024",
+  "data_emissao": "2024-05-09",
   "hora_emissao": "12:05:47",
   "qrcode_url": "https://servicos.receita.fazenda.gov.br/Servicos/CPF/ca/ResultadoAut.asp?cp=12345678900&cc=24065A890E54747B&de=09052024&he=120547&dv=00&em=01"
 }
