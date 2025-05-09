@@ -30,8 +30,8 @@ Consulta detalhes de um CPF específico.
 | `nome`               | Texto | Nome completo da pessoa        | `MARIA DA SILVA`                                                                                                                                |
 | `data_nascimento`    | Texto | Data de nascimento             | `1990-01-01`                                                                                                                                    |
 | `situacao`           | Texto | Situação do CPF                | `REGULAR`                                                                                                                                       |
-| `data_inscricao`     | Texto | Data da inscrição no CPF       | `2005-03-15`                                                                                                                                    |
-| `digito_verificador` | Texto | Dígitos verificadores          | `00`                                                                                                                                            |
+| `data_inscricao`     | Texto | Data da inscrição no CPF       | `2005-03-15` ou `anterior a 10/11/1990`                                                                                                         |
+| `digito_verificador` | Texto | Dígito verificador             | `00`                                                                                                                                            |
 | `codigo_controle`    | Texto | Código de controle da consulta | `2407.5A88.0E55.746B`                                                                                                                           |
 | `data_emissao`       | Texto | Data de emissão do comprovante | `2024-05-09`                                                                                                                                    |
 | `hora_emissao`       | Texto | Hora de emissão do comprovante | `12:05:47`                                                                                                                                      |
