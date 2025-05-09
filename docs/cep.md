@@ -80,7 +80,7 @@ curl -X GET 'https://consultar.io/api/v1/cep/consultar?cep=04571000' -H 'Authori
 
 ## Limites e Considerações
 
-- Cada requisição de "Consultar" consome 1 crédito
+- As consultas de CEP estão disponíveis gratuitamente por tempo indeterminado
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte
