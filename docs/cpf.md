@@ -19,7 +19,7 @@ Consulta detalhes de um CPF específico.
 
 | Parâmetro         | Tipo  | Obrigatório | Descrição                       | Exemplo       |
 | ----------------- | ----- | ----------- | ------------------------------- | ------------- |
-| `cpf`             | Texto | Sim         | Número do CPF (apenas números)  | `12345678900` |
+| `cpf`             | Texto | Sim         | Número do CPF (apenas números)  | `87135740009` |
 | `data_nascimento` | Texto | Sim         | Data de nascimento (DD/MM/AAAA) | `01/01/1990`  |
 
 #### Resposta
