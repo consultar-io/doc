@@ -27,6 +27,7 @@ buscar informações sobre estabelecimentos, pessoas, profissionais e endereços
 Consulte a documentação de cada endpoint para mais informações.
 
 - [CNPJ](./cnpj.md)
+- [CPF](./cpf.md)
 - [IE](./inscricao-estadual.md)
 - [CRM](./crm.md)
 - [CRO](./cro.md)
