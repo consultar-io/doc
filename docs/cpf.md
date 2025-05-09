@@ -20,7 +20,7 @@ Consulta detalhes de um CPF específico.
 | Parâmetro         | Tipo  | Obrigatório | Descrição                       | Exemplo       |
 | ----------------- | ----- | ----------- | ------------------------------- | ------------- |
 | `cpf`             | Texto | Sim         | Número do CPF (apenas números)  | `87135740009` |
-| `data_nascimento` | Texto | Sim         | Data de nascimento (DD/MM/AAAA) | `01/01/1990`  |
+| `data_nascimento` | Texto | Sim         | Data de nascimento (AAAA-MM-DD) | `1990-01-01`  |
 
 #### Resposta
 
@@ -28,12 +28,12 @@ Consulta detalhes de um CPF específico.
 | -------------------- | ----- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | `cpf`                | Texto | Número do CPF                  | `87135740009`                                                                                                                                   |
 | `nome`               | Texto | Nome completo da pessoa        | `MARIA DA SILVA`                                                                                                                                |
-| `data_nascimento`    | Texto | Data de nascimento             | `01/01/1990`                                                                                                                                    |
+| `data_nascimento`    | Texto | Data de nascimento             | `1990-01-01`                                                                                                                                    |
 | `situacao`           | Texto | Situação do CPF                | `REGULAR`                                                                                                                                       |
-| `data_inscricao`     | Texto | Data da inscrição no CPF       | `15/03/2005`                                                                                                                                    |
+| `data_inscricao`     | Texto | Data da inscrição no CPF       | `2005-03-15`                                                                                                                                    |
 | `digito_verificador` | Texto | Dígitos verificadores          | `00`                                                                                                                                            |
 | `codigo_controle`    | Texto | Código de controle da consulta | `2407.5A88.0E55.746B`                                                                                                                           |
-| `data_emissao`       | Texto | Data de emissão do comprovante | `09/05/2024`                                                                                                                                    |
+| `data_emissao`       | Texto | Data de emissão do comprovante | `2024-05-09`                                                                                                                                    |
 | `hora_emissao`       | Texto | Hora de emissão do comprovante | `12:05:47`                                                                                                                                      |
 | `qrcode_url`         | Texto | URL do QR Code para validação  | `https://servicos.receita.fazenda.gov.br/Servicos/CPF/ca/ResultadoAut.asp?cp=87135740009&cc=24075A880E55746B&de=09052025&he=120547&dv=00&em=01` |
 
