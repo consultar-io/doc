@@ -5,10 +5,6 @@
 Esta API permite consultar e buscar informações sobre pessoas físicas
 registradas no Cadastro de Pessoas Físicas (CPF) do Brasil.
 
-!!! warning "API em Beta"
-
-    Essa API está em Beta, entre em contato com o Suporte para solicitar acesso.
-
 ## Endpoints
 
 ### 1. Consultar
@@ -86,9 +82,7 @@ curl -X GET 'https://consultar.io/api/v1/cpf/consultar?cpf=12345678900&data_nasc
 
 ## Limites e Considerações
 
-- Cada requisição de consulta consome 1 crédito
+- Cada requisição de "Consultar" consome 1 crédito
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte
-- A API respeita as diretrizes da LGPD (Lei Geral de Proteção de Dados)
-- Os dados retornados são apenas para fins de validação e não devem ser armazenados
