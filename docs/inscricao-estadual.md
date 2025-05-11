@@ -3,7 +3,7 @@
 ## Introdução
 
 Esta API permite consultar e buscar informações sobre Inscrições Estaduais (IE)
-do Brasil. A consulta pode ser realizada utilizando o CNPJ ou CPF do
+no CCC (SINTEGRA). A consulta pode ser realizada utilizando o CNPJ ou CPF do
 contribuinte, juntamente com a UF.
 
 ## Endpoints
