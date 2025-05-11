@@ -43,6 +43,7 @@ nav:
   - Ambientes: ambientes.md
   - Autenticação: autenticacao.md
   - Endpoints:
+      - endpoints/index.md
       - CNPJ: endpoints/cnpj.md
       - CPF: endpoints/cpf.md
       - IE: endpoints/inscricao-estadual.md
