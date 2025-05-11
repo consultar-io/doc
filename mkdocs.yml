@@ -10,6 +10,8 @@ theme:
   features:
     - content.code.copy
     - navigation.footer
+    - navigation.expand
+    - navigation.path
     - navigation.indexes
   icon:
     admonition:
@@ -41,17 +43,18 @@ nav:
   - Introdução: index.md
   - Ambientes: ambientes.md
   - Autenticação: autenticacao.md
-  - CNPJ: cnpj.md
-  - CPF: cpf.md
-  - IE: inscricao-estadual.md
-  - CEP: cep.md
-  - Latitude/Longitude: latitude-longitude.md
-  - CRM: crm.md
-  - CRO: cro.md
-  - CRBM: crbm.md
-  - CRF: crf.md
-  - Exemplos: exemplos.md
-    - Python: exemplos/python.md
+  - Endpoints:
+      - CNPJ: endpoints/cnpj.md
+      - CPF: endpoints/cpf.md
+      - IE: endpoints/inscricao-estadual.md
+      - CEP: endpoints/cep.md
+      - Latitude/Longitude: endpoints/latitude-longitude.md
+      - CRM: endpoints/crm.md
+      - CRO: endpoints/cro.md
+      - CRBM: endpoints/crbm.md
+      - CRF: endpoints/crf.md
+  - Exemplos:
+      - Python: exemplos/python.md
   - Suporte: suporte.md
 extra:
   social:
