@@ -1,7 +1,7 @@
 # Exemplos
 
-Acesse o repositório <https://github.com/consultar-io/api> para ver os exemplos
-do uso da API.
+Acesse o repositório [consultar-io/api](https://github.com/consultar-io/api)
+no GitHub para ver os exemplos do uso da API do **Consultar.io**.
 
 ## Exemplos
 
