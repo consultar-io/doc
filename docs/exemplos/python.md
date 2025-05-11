@@ -1,11 +1,11 @@
 # Exemplos em Python
 
-Exemplos do uso da API do [Consultar.io](https://consultar.io/?utm_source=github&utm_medium=readme&utm_campaign=api) em Python.
+Exemplos do uso da API do [Consultar.io](https://consultar.io/?utm_source=docs&utm_medium=referral&utm_campaign=python) em Python.
 
 ## Exemplos
 
-- [Exemplo CNPJ](/python/cnpj.py) (cnpj.py)
-- [Exemplo CPF](/python/cpf.py) (cpf.py)
+- [Exemplo CNPJ](https://github.com/consultar-io/api/blob/main/python/cnpj.py) (cnpj.py)
+- [Exemplo CPF](https://github.com/consultar-io/api/blob/main/python/cpf.py) (cpf.py)
 
 ## Requisitos
 
@@ -65,7 +65,3 @@ Execute o script:
 ```bash
 python3 nome_do_script.py
 ```
-
-## Documentação
-
-Acesse a [Documentação](https://consultar.dev/?utm_source=github&utm_medium=readme&utm_campaign=api) para mais informações.
