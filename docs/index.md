@@ -38,8 +38,8 @@ Consulte a documentação de cada endpoint para mais informações.
 
 ## Exemplos
 
-Consulte a documentação de [Exemplos](./exemplos.md) para mais informações sobre
-o exemplos de uso da API.
+Consulte a documentação de [Exemplos](./exemplos/index.md) para mais informações
+sobre os exemplos de uso da API.
 
 ## Suporte
 

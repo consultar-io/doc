@@ -10,6 +10,7 @@ theme:
   features:
     - content.code.copy
     - navigation.footer
+    - navigation.indexes
   icon:
     admonition:
       note: octicons/tag-16
