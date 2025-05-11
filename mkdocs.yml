@@ -54,6 +54,7 @@ nav:
       - CRBM: endpoints/crbm.md
       - CRF: endpoints/crf.md
   - Exemplos:
+      - exemplos/index.md
       - Python: exemplos/python.md
   - Suporte: suporte.md
 extra:
