@@ -5,4 +5,4 @@ no **GitHub** para ver os exemplos do uso da API do **Consultar.io**.
 
 ## Exemplos
 
-- [Python](./exemplos/python.md)
+- [Python](./python.md)
