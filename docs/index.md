@@ -35,3 +35,13 @@ Consulte a documentação de cada endpoint para mais informações.
 - [CRO](./cro.md)
 - [CRBM](./crbm.md)
 - [CRF](./crf.md)
+
+## Exemplos
+
+Consulte a documentação de [Exemplos](./exemplos.md) para mais informações sobre
+o exemplos de uso da API.
+
+## Suporte
+
+Consulte a documentação de [Suporte](./suporte.md) para mais informações sobre
+o suporte ao uso da API.
