@@ -50,6 +50,7 @@ nav:
   - CRBM: crbm.md
   - CRF: crf.md
   - Exemplos: exemplos.md
+    - Python: exemplos/python.md
   - Suporte: suporte.md
 extra:
   social:
