@@ -1,6 +1,6 @@
 # Exemplos em Python
 
-Exemplos do uso da API do [Consultar.io](https://consultar.io/?utm_source=docs&utm_medium=referral&utm_campaign=python) em Python.
+Exemplos do uso da API do [Consultar.io](https://consultar.io/?utm_source=docs&utm_medium=referral&utm_campaign=python) em **Python**.
 
 ## Exemplos
 
