@@ -2,8 +2,7 @@
 
 ## Introdução
 
-Esta API permite consultar e buscar informações sobre pessoas físicas
-registradas no Cadastro de Pessoas Físicas (CPF) do Brasil.
+Esta API permite consultar informações sobre pessoas físicas registradas no Cadastro de Pessoas Físicas (CPF) do Brasil.
 
 ## Endpoints
 
