@@ -38,6 +38,18 @@ markdown_extensions:
   - pymdownx.details
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        "cnpj.md": "endpoints/cnpj.md"
+        "cpf.md": "endpoints/cpf.md"
+        "inscricao-estadual.md": "endpoints/inscricao-estadual.md"
+        "inscricao-municipal.md": "endpoints/inscricao-municipal.md"
+        "cep.md": "endpoints/cep.md"
+        "latitude-longitude.md": "endpoints/latitude-longitude.md"
+        "crm.md": "endpoints/crm.md"
+        "cro.md": "endpoints/cro.md"
+        "crbm.md": "endpoints/crbm.md"
+        "crf.md": "endpoints/crf.md"
 nav:
   - Introdução: index.md
   - Ambientes: ambientes.md
