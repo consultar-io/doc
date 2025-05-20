@@ -26,7 +26,8 @@ Consulte a documentação de cada endpoint para mais informações.
 
 - [CNPJ](./endpoints/cnpj.md)
 - [CPF](./endpoints/cpf.md)
-- [IE](./endpoints/inscricao-estadual.md)
+- [Inscrição Estadual](./endpoints/inscricao-estadual.md)
+- [Inscrição Municipal](./endpoints/inscricao-municipal.md)
 - [CEP](./endpoints/cep.md)
 - [Latitude/Longitude](./endpoints/latitude-longitude.md)
 - [CRM](./endpoints/crm.md)

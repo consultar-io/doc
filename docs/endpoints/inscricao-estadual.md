@@ -1,4 +1,4 @@
-# IE - Inscrição Estadual
+# Inscrição Estadual
 
 ## Introdução
 
